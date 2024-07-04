@@ -9,22 +9,28 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    <h1>Conversor de monedas</h1>
-    <section id="conversor">
-        <h2>Pesos CLP</h2>
-        <input type="number" id="CLP">
-        <h2>Convertir a</h2>
-        <select name="monedas" id="moneda">
-            <option value="USD">USD</option>
-            <option value="EUR">EUR</option>
-        </select>
-        <button id="buscar">
-            Buscar
-        </button>
-        <div id="resultado">
-        Resultado:
-        </div>
-    </section>
+    <div id="title">
+        <h1>Conversor de monedas</h1>
+    </div>
+    <div id="main-section">
+        <section id="conversor">
+            <h2>Pesos CLP</h2>
+            <input type="number" id="CLP">
+            <h2>Convertir a</h2>
+            <div id="convertir">
+                <select name="monedas" id="moneda">
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+                <button id="buscar">
+                    Buscar
+                </button>
+                <div id="resultado">
+                Resultado:
+                </div>
+            </div>
+        </section>
+    </div>
     <section id="graph">
         <canvas id="chart"></canvas>
     </section>

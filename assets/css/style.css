@@ -1,37 +1,66 @@
 body{
     font-family:sans-serif;
     text-align: center;
-    justify-content: space-evenly;
-    background-color: rgb(74, 74, 175);
+    justify-content: center;
+    background-color: rgb(6, 17, 39);;
 }
 
 h1{
     color: white;
+    border-top: solid 1px lightblue;
+    border-bottom: solid 1px lightblue;
+    width: 30rem;
+}
+
+#title{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#main-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
 }
 
 h2{
     color: white;
+    align-content: center;
+    padding: 1rem;
 }
 
 #conversor {
-    border: 0 5px 0 10px;
+    width: 20rem;
+    border: 0 5px 0 5px;
     padding-bottom: 1rem;
+    background-color: grey;
 }
 
 #CLP{
-    font-size: medium;
+    font-size: large;
+    width: 10rem;
+    text-align: center;
+}
+
+#convertir{
 }
 
 #moneda{
-    border: solid 5px white;
     font-size: medium;
-    margin-left: 2rem;
+    width: 8rem;
+    height: 4rem;
+    text-align: center;
 }
 
 #buscar{
-    background-color: rgb(184, 181, 181);
+    background-color: rgb(84, 224, 243);
     font-size: large;
-    border: solid 4px grey;
+    border: solid 4px rgb(44, 198, 236);
+    color: white;
+    width: 10rem;
+    height: 4rem;
+    border-radius: 8%;
 }
 
 #resultado{
@@ -39,6 +68,11 @@ h2{
     font-size: x-large;
     margin-top: 1rem;
     font-weight: 500;
+}
+
+#convertir{
+    display: flex;
+    flex-direction: column;
 }
 
 #graph{
