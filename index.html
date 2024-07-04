@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <h1>Conversor de monedas e indicadores nacional</h1>
+    <section id="conversor">
+    <h2>Pesos CLP</h2>
+    <input type="number">
+    <h2>Moneda o indicador a convertir</h2>
+    <select name="monedas" id="moneda">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="CAD">Dólar Canadiense</option>
+        <option value="AUD">Dólar Australiano</option>
+        <option value="BRL">Real Brasileño</option>
+    </select>
+    <button id="buscar">
+        Buscar
+    </button>
+    <div id="resultado">
+        Resultado:
+        <div id="DolarO"></div>
+        <div id="DolarA"></div>
+        <div id="Euro"></div>
+        <div id="IPC"></div>
+        <div id="UTM"></div>
+        <div id="IVP"></div>
+        <div id="Imacec"></div>
+    </div>
+    </section>
+    <section id="graph">
+    </section>
+</body>
+<script src="./assets/js/script.js"></script>
+</html>
